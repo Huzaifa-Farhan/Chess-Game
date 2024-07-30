@@ -1,0 +1,142 @@
+/* Reset margins and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the body content horizontally and vertically, and hide horizontal overflow */
+body {
+    display: flex; /* Use flexbox for alignment */
+    place-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    overflow-x: hidden; /* Hide horizontal scroll */
+    height: 100vh; /* Full viewport height */
+}
+
+/* Center the container within the body */
+.container {
+    display: grid; /* Use grid layout */
+    place-items: center; /* Center items both horizontally and vertically */
+    justify-content: center; /* Center items horizontally */
+}
+
+/* Style for each row of the chessboard */
+.div {
+    display: flex; /* Use flexbox for row layout */
+}
+
+/* Style for the list (used for rows) */
+ul {
+    display: grid; /* Use grid layout for the list */
+    grid-template-columns: 1fr; /* Single column layout */
+}
+
+/* Remove default list styling and center text in each list item */
+li {
+    list-style: none; /* Remove bullet points */
+    display: grid; /* Use grid layout for items */
+    place-items: center; /* Center items within the grid cell */
+    font-size: 0; /* Remove default font size */
+}
+
+/* Style for each chessboard cell */
+.box {
+    margin: .5px; /* Small margin between cells */
+    width: 75px; /* Width of each cell */
+    height: 75px; /* Height of each cell */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); /* Shadow effect */
+}
+
+/* Style for the main title */
+h1 {
+    margin: 20px; /* Margin around the title */
+    font-size: 2.5rem; /* Font size */
+    text-align: center; /* Center text */
+    color: black; /* Text color */
+    border: 2px solid black; /* Border around the title */
+    padding: 10px; /* Padding inside the border */
+    background-color: gray; /* Background color */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Style for the current turn indicator */
+#tog {
+    margin: 40px 0px; /* Margin above and below */
+    font-size: 1.5rem; /* Font size */
+    text-align: left; /* Align text to the left */
+    background-color: #4CAF50; /* Background color */
+    color: #000; /* Text color */
+    border: 2px solid #fff; /* Border color */
+    padding: 10px; /* Padding inside the element */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Style for the reset button */
+#reset-btn {
+    background-color: #4CAF50; /* Background color */
+    border: none; /* Remove default border */
+    color: black; /* Text color */
+    padding: 10px 20px; /* Padding inside the button */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline from text */
+    display: inline-block; /* Inline block display */
+    font-size: 16px; /* Font size */
+    margin-top: 4px; /* Margin above the button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Style for images in the chessboard cells */
+.all-img {
+    width: 65px; /* Width of each image */
+    position: relative; /* Relative positioning */
+    bottom: 5px; /* Move image slightly down */
+}
+
+/* Style for pawn images */
+.all-pawn {
+    transform: scale(.7); /* Scale down images */
+}
+
+/* Style for the author container */
+.authcont {
+    width: 100vw; /* Full viewport width */
+}
+
+/* Style for the author text alignment */
+.author {
+    float: right; /* Float text to the right */
+    margin-right: 50px; /* Margin to the right */
+}
+
+/* Responsive design for screens smaller than 650px */
+@media (max-width: 650px) {
+    .box {
+        width: 11vw; /* Width based on viewport width */
+        height: 11vw; /* Height based on viewport width */
+    }
+
+    .all-img {
+        width: 7vw; /* Width of images based on viewport width */
+    }
+    #tog {
+        margin: 30px 0px; /* Reduced margin */
+        font-size: 20px; /* Font size for smaller screens */
+    }
+    #reset-btn {
+        font-size: 10px; /* Font size for smaller screens */
+    }
+    h1 {
+        font-size: 30px; /* Font size for smaller screens */
+    }
+}
+
+/* Responsive design for screens smaller than 400px */
+@media (max-width: 400px) {
+    h1 {
+        font-size: 20px; /* Font size for very small screens */
+    }
+    #tog {
+        margin: 30px 0px; /* Margin for very small screens */
+        font-size: 10px; /* Font size for very small screens */
+    }
+}
