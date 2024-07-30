@@ -27,7 +27,7 @@ Welcome to **Huzaifa's Chess Game**! This project is a simple implementation of 
 2. **Navigate to the Project Directory**
 
    ```bash
-cd chess-game
+   cd chess-game
 
 3. **Open the index.html File**
 Open index.html in your preferred web browser to start playing.
@@ -38,7 +38,7 @@ Open index.html in your preferred web browser to start playing.
 * main.js - JavaScript file implementing game logic, piece movement, and board interactions.
 * images/ - Directory containing images of chess pieces.
 
-  ### Usage
+### Usage
   * Select a Piece: Click on a piece to highlight possible moves.
   * Move a Piece: Click on a highlighted move location to move the selected piece.
   * Reset the Game: Click the "Reset" button to start a new game.
@@ -46,4 +46,4 @@ Open index.html in your preferred web browser to start playing.
 
 > **Note**:  
 > This is a super basic level chess game and does not currently include a checkmate feature. I plan to add checkmate and other complex functionality over time.
-> I was able to create the following game by following the Tutorial created by CydexCode on Youtube. Here is a link for the tutorial for anyone interested: Video https://youtu.be/ku0lcfbakXo?si=KIfuiDF8-RTOKNYk
+> I was able to create the following game by following the Tutorial created by CydexCode on Youtube. Here is a link for the tutorial for anyone interested: [Video]([https://youtu.be/ku0lcfbakXo?si=KIfuiDF8-RTOKNYk])
