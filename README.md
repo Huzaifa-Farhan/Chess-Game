@@ -46,4 +46,4 @@ Open index.html in your preferred web browser to start playing.
 
 > **Note**:  
 > This is a super basic level chess game and does not currently include a checkmate feature. I plan to add checkmate and other complex functionality over time.
-> I was able to create the following game by following the Tutorial created by CydexCode on Youtube. Here is a link for the tutorial for anyone interested: [Video]([https://youtu.be/ku0lcfbakXo?si=KIfuiDF8-RTOKNYk])
+> I was able to create the following game by following the Tutorial created by CydexCode on Youtube. Here is a link for the tutorial for anyone interested: https://youtu.be/ku0lcfbakXo?si=KIfuiDF8-RTOKNYk
